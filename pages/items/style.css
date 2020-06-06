@@ -1,0 +1,170 @@
+/* gloobal style sheet */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color:#00e673;
+
+}
+
+.logo{
+    color: white;
+    margin: 0px 20px;
+}
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: ubanto;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 9px 20px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+}
+
+
+
+/* this is item section */
+
+.items{
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(112, 216, 126);;
+}
+
+.items > h1{
+    padding-bottom: 70px;
+    font-size: 3rem;
+}
+
+.items-rep{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-box{
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: rgb(197, 199, 198);
+    border: 2px solid rgb(145, 76, 76);
+    border-radius: 20px;
+    width: 250px;
+}
+
+.item-box p{
+    font-weight: bold;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(131, 115, 115);
+    font-weight: bold;
+}
+
+span{
+    text-decoration: line-through;
+    padding: 0px 5pxs;
+    font-weight: lighter;
+}
+
+.anda{
+    width: 160px;
+}
+
+.burger{
+    width: 180px;
+}
+
+.item-box img{
+    height: 170px;
+}
+
+
+@media screen and (max-width:700px){
+   
+
+    .h-primery{
+        font-size: 2.5rem;
+    }
+    
+    .p-primery{
+        font-size: 0.8rem;
+    }
+    
+    
+    #navbar{
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+    }
+    
+    #navbar ul{
+        position: unset;
+    }
+    
+    .logo{
+        padding: 10px 0px 5px 0px;
+    }
+
+    .item a{
+        font-size: 0.8rem;
+    }
+    
+    footer{
+        font-size: 0.7rem;
+    }
+
+}
+
+/* utility classes */
+
+@font-face{
+    font-family: ubanto ;
+    src: url('../../Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: fontoo;
+    src: url('../../ChelseaMarket-Regular.ttf');
+}
+
+
+h1{
+    font-family: ubanto;
+}
+
+.h-primery{
+    font-family: ubanto;
+    font-size: 3.0rem;
+}
+
+.p-primery{
+    font-family: fontoo;
+}

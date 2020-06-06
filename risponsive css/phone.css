@@ -1,0 +1,30 @@
+.h-primery{
+    font-size: 2.5rem;
+}
+
+.p-primery{
+    font-size: 0.7rem;
+}
+
+
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+}
+
+#navbar ul{
+    position: unset;
+}
+
+.logo{
+    padding: 10px 0px 5px 0px;
+}
+
+.item a{
+    font-size: 0.8rem;
+}
+
+footer{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,17 @@
+.newrep{
+    flex-direction: column;
+}
+
+.newbox{
+    padding: 30px 30px 30px 30px;
+}
+
+
+.serrep{
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.serbox{
+    margin: 10px 20px;
+}

@@ -1,0 +1,152 @@
+/* gloobal style sheet */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color:#00e673;
+
+}
+
+.logo{
+    color: white;
+    margin: 0px 20px;
+}
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: ubanto;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 9px 20px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+}
+
+
+
+/* this is feed back section */
+
+
+
+.formg input,
+.formg textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.formg label{
+    font-weight: bold;
+    font-family: fontoo;
+    margin-top: 30px;
+}
+
+
+#feedback{
+    width: 50%;
+    margin: auto;
+}
+
+#feedback h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.feedrep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0px;
+}
+
+.feed{
+    background-color: rgb(112, 216, 126);
+    height: 100vh;    
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    font-family: fontoo;
+}
+
+
+@media screen and (max-width:700px){
+    #navbar{
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+    }
+    
+    #navbar ul{
+        position: unset;
+    }
+    
+    .logo{
+        padding: 10px 0px 5px 0px;
+    }
+
+    .item a{
+        font-size: 0.8rem;
+    }
+    
+    footer{
+        font-size: 0.7rem;
+    }
+
+}
+
+
+/* utility classes */
+
+@font-face{
+    font-family: ubanto ;
+    src: url('../../Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: fontoo;
+    src: url('../../ChelseaMarket-Regular.ttf');
+}
+
+h1{
+    font-family: ubanto;
+}
+
+.h-primery{
+    font-family: ubanto;
+    font-size: 3.0rem;
+}
+
+.p-primery{
+    font-family: fontoo;
+}
